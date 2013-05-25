@@ -11,16 +11,17 @@
  *   act just like the basic bash shell. 
  * 
  * Sample interaction:
- *   cmd				 A sigle cmd that identifies the name of a program file
- *   cmd; cmd			 A sequence of cmd which "myshell" will execture one after another
- *   cmd > output_file	 Redirect stdout of cmd to the file named output_file
- *   cmd < input_file	 Redirect stdin of cmd to the file named input_file
- *   cmd 1> output_file  Redirect stdout of cmd to the file named output_file 
- *   cmd 2> output_file	 Redirect stderr of cmd to the file named output_file
- *   cmd &> outpout_file Redirect both stdout and stderr to the file named output_file
- *   cmd1 | cmd2 | cmd3  Pipeline the output of the cmd before each "|" symbol to the 
- *							input of the cmd after the same "|" symbol
- *	 cmd &				 "myshell" let cmd execute in the background 
+ *   cmd			A sigle cmd that identifies the name of a program file
+ *   cmd; cmd			A sequence of cmd which "myshell" will execture one after another
+ *   cmd > output_file		Redirect stdout of cmd to the file named output_file
+ *   cmd < input_file		Redirect stdin of cmd to the file named input_file
+ *   cmd 1> output_file 	Redirect stdout of cmd to the file named output_file 
+ *   cmd 2> output_file		Redirect stderr of cmd to the file named output_file
+ *   cmd &> outpout_file 	Redirect both stdout and stderr to the file named output_file
+ *   cmd1 | cmd2 | cmd3  	Pipeline the output of the cmd before each "|" symbol to the 
+ *					input of the cmd after the same "|" symbol
+ *   cmd &			
+ "myshell" let cmd execute in the background 
  *
  */
 
